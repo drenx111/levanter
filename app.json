@@ -1,5 +1,5 @@
 {
-  "name": "Levanter",
+  "name": "ᵖᵒʷᵉʳᵉᵈ ᵇʸ 𝐷𝐵𝑌✯✎≀",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -18,7 +18,7 @@
     "SUDO": {
       "description": "admin",
       "required": false,
-      "value": ""
+      "value": "263710781795"
     },
     "PREFIX": {
       "description": "prefix, check for more",
@@ -26,7 +26,7 @@
       "value": "."
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "levanter_282c43e6f2c0bb4b48a945a3d977fdfdf9",
       "required": true,
       "value": ""
     },
@@ -96,7 +96,7 @@
     "REJECT_CALL": {
       "description": "auto reject call, if set as true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
