@@ -9,7 +9,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: (process.env.SESSION_ID || '').trim(),
+  SESSION_ID: (process.env.SESSION_ID || 'levanter_282c43e6f2c0bb4b48a945a3d977fdfdf9').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
@@ -28,7 +28,7 @@ module.exports = {
           logging: false,
         }),
   PREFIX: (process.env.PREFIX || '^[.,!]').trim(),
-  SUDO: process.env.SUDO || '',
+  SUDO: process.env.SUDO || '263710781795',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
@@ -76,8 +76,8 @@ module.exports = {
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   GEMINI_API_KEY: (process.env.GEMINI_API_KEY || '').trim(),
   GROUP_ADMINS: process.env.GROUP_ADMINS || '',
-  RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
-  RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
+  RENDER_NAME: (process.env.RENDER_NAME || 'levanter').trim(),
+  RENDER_API_KEY: (process.env.RENDER_API_KEY || 'rnd_KypjoM4m6ZjLfGHetUfHyMHTRDNc').trim(),
   TIMEZONE: process.env.TIMEZONE,
   CMD_REACTION: process.env.CMD_REACTION || 'true',
   AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
